@@ -17,6 +17,15 @@ public class PruebaGit4 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("");
+        System.out.println(suma(1, 2));
+        System.out.println(mult(2, 3));
     }
-    
+
+    public static int suma(int a, int b) {
+        return a + b;
+    }
+
+    public static int mult(int a, int b) {
+        return a * b;
+    }
 }
